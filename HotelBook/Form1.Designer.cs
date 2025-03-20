@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnRegistrar = new System.Windows.Forms.Button();
+            this.btnIniciarSesion = new System.Windows.Forms.Button();
+            this.btnCerarsesion = new System.Windows.Forms.Button();
+            this.btnModificraperfil = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -45,47 +45,47 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // button1
+            // btnRegistrar
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(598, 31);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 50);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Registrar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.Location = new System.Drawing.Point(598, 40);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(163, 50);
+            this.btnRegistrar.TabIndex = 0;
+            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnIniciarSesion
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(598, 103);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(163, 51);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "iniciar sesion ";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnIniciarSesion.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIniciarSesion.Location = new System.Drawing.Point(598, 103);
+            this.btnIniciarSesion.Name = "btnIniciarSesion";
+            this.btnIniciarSesion.Size = new System.Drawing.Size(163, 51);
+            this.btnIniciarSesion.TabIndex = 1;
+            this.btnIniciarSesion.Text = "iniciar sesion ";
+            this.btnIniciarSesion.UseVisualStyleBackColor = true;
+            this.btnIniciarSesion.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnCerarsesion
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(598, 175);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(163, 49);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "cerrar sesion";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnCerarsesion.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerarsesion.Location = new System.Drawing.Point(598, 175);
+            this.btnCerarsesion.Name = "btnCerarsesion";
+            this.btnCerarsesion.Size = new System.Drawing.Size(163, 49);
+            this.btnCerarsesion.TabIndex = 2;
+            this.btnCerarsesion.Text = "cerrar sesion";
+            this.btnCerarsesion.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnModificraperfil
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(598, 248);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(167, 52);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Modificar perfil";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnModificraperfil.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificraperfil.Location = new System.Drawing.Point(598, 248);
+            this.btnModificraperfil.Name = "btnModificraperfil";
+            this.btnModificraperfil.Size = new System.Drawing.Size(167, 52);
+            this.btnModificraperfil.TabIndex = 3;
+            this.btnModificraperfil.Text = "Modificar perfil";
+            this.btnModificraperfil.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -197,12 +197,13 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnModificraperfil);
+            this.Controls.Add(this.btnCerarsesion);
+            this.Controls.Add(this.btnIniciarSesion);
+            this.Controls.Add(this.btnRegistrar);
             this.Name = "Form1";
             this.Text = ".";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -210,10 +211,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnRegistrar;
+        private System.Windows.Forms.Button btnIniciarSesion;
+        private System.Windows.Forms.Button btnCerarsesion;
+        private System.Windows.Forms.Button btnModificraperfil;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
