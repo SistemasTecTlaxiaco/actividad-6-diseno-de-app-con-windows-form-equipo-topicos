@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservaApp", "ReservaApp\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitacion", "Habitacion\Habitacion.csproj", "{8CFC5F40-3C28-4183-9EDA-0F217335530E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reportes", "Reportes\Reportes.csproj", "{533E8CDC-FDE6-4ABE-A4A3-C90D1515B51A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8CFC5F40-3C28-4183-9EDA-0F217335530E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CFC5F40-3C28-4183-9EDA-0F217335530E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CFC5F40-3C28-4183-9EDA-0F217335530E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533E8CDC-FDE6-4ABE-A4A3-C90D1515B51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533E8CDC-FDE6-4ABE-A4A3-C90D1515B51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533E8CDC-FDE6-4ABE-A4A3-C90D1515B51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533E8CDC-FDE6-4ABE-A4A3-C90D1515B51A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
