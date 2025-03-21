@@ -135,7 +135,7 @@ namespace HotelBook
 
         private void Form1_Load(object sender, EventArgs e) 
         {
-           // usuario = new Usuario(idUsuario, nombre, apellido, email, contraseña, "Cliente");
+           // usuario = new Usuario(idUsuario, nombre, apellido, email, contraseña, "Cliente"); 
 
         }
     }
