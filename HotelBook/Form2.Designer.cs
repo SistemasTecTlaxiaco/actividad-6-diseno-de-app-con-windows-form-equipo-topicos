@@ -42,12 +42,12 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.nombre = new System.Windows.Forms.Label();
+            this.idusuario = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnmoficarservicio = new System.Windows.Forms.Button();
+            this.btneliminarservicio = new System.Windows.Forms.Button();
+            this.btnagregarservicio = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox1
@@ -57,6 +57,7 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(255, 95);
             this.listBox1.TabIndex = 39;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // textBox7
             // 
@@ -64,6 +65,7 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(255, 20);
             this.textBox7.TabIndex = 38;
+            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // textBox6
             // 
@@ -71,6 +73,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(255, 20);
             this.textBox6.TabIndex = 37;
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // textBox5
             // 
@@ -78,6 +81,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(255, 20);
             this.textBox5.TabIndex = 36;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textBox4
             // 
@@ -85,6 +89,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(268, 20);
             this.textBox4.TabIndex = 35;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // textBox3
             // 
@@ -92,6 +97,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(268, 20);
             this.textBox3.TabIndex = 34;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox2
             // 
@@ -99,6 +105,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(268, 20);
             this.textBox2.TabIndex = 33;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox1
             // 
@@ -106,6 +113,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(268, 20);
             this.textBox1.TabIndex = 32;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label9
             // 
@@ -115,6 +123,7 @@
             this.label9.Size = new System.Drawing.Size(53, 13);
             this.label9.TabIndex = 31;
             this.label9.Text = "Servicios:";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label8
             // 
@@ -124,6 +133,7 @@
             this.label8.Size = new System.Drawing.Size(72, 13);
             this.label8.TabIndex = 30;
             this.label8.Text = "Descripcción:";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label7
             // 
@@ -133,6 +143,7 @@
             this.label7.Size = new System.Drawing.Size(49, 13);
             this.label7.TabIndex = 29;
             this.label7.Text = "Estrellas:";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label6
             // 
@@ -142,6 +153,7 @@
             this.label6.Size = new System.Drawing.Size(52, 13);
             this.label6.TabIndex = 28;
             this.label6.Text = "Telefono:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
@@ -151,6 +163,7 @@
             this.label5.Size = new System.Drawing.Size(32, 13);
             this.label5.TabIndex = 27;
             this.label5.Text = "País:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
@@ -160,24 +173,27 @@
             this.label4.Size = new System.Drawing.Size(55, 13);
             this.label4.TabIndex = 26;
             this.label4.Text = "Dirección:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // label3
+            // nombre
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(36, 214);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 13);
-            this.label3.TabIndex = 25;
-            this.label3.Text = "Nombre:";
+            this.nombre.AutoSize = true;
+            this.nombre.Location = new System.Drawing.Point(36, 214);
+            this.nombre.Name = "nombre";
+            this.nombre.Size = new System.Drawing.Size(47, 13);
+            this.nombre.TabIndex = 25;
+            this.nombre.Text = "Nombre:";
+            this.nombre.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label2
+            // idusuario
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(36, 169);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 13);
-            this.label2.TabIndex = 24;
-            this.label2.Text = "ID de Usuario:";
+            this.idusuario.AutoSize = true;
+            this.idusuario.Location = new System.Drawing.Point(36, 169);
+            this.idusuario.Name = "idusuario";
+            this.idusuario.Size = new System.Drawing.Size(75, 13);
+            this.idusuario.TabIndex = 24;
+            this.idusuario.Text = "ID de Usuario:";
+            this.idusuario.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -189,32 +205,35 @@
             this.label1.TabIndex = 23;
             this.label1.Text = "Sistema  de Hoteles ";
             // 
-            // button3
+            // btnmoficarservicio
             // 
-            this.button3.Location = new System.Drawing.Point(544, 102);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(244, 31);
-            this.button3.TabIndex = 22;
-            this.button3.Text = "Modificar Servicio";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnmoficarservicio.Location = new System.Drawing.Point(544, 102);
+            this.btnmoficarservicio.Name = "btnmoficarservicio";
+            this.btnmoficarservicio.Size = new System.Drawing.Size(244, 31);
+            this.btnmoficarservicio.TabIndex = 22;
+            this.btnmoficarservicio.Text = "Modificar Servicio";
+            this.btnmoficarservicio.UseVisualStyleBackColor = true;
+            this.btnmoficarservicio.Click += new System.EventHandler(this.btnmoficarservicio_Click);
             // 
-            // button2
+            // btneliminarservicio
             // 
-            this.button2.Location = new System.Drawing.Point(284, 102);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(244, 31);
-            this.button2.TabIndex = 21;
-            this.button2.Text = "Eliminar Servicio";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btneliminarservicio.Location = new System.Drawing.Point(284, 102);
+            this.btneliminarservicio.Name = "btneliminarservicio";
+            this.btneliminarservicio.Size = new System.Drawing.Size(244, 31);
+            this.btneliminarservicio.TabIndex = 21;
+            this.btneliminarservicio.Text = "Eliminar Servicio";
+            this.btneliminarservicio.UseVisualStyleBackColor = true;
+            this.btneliminarservicio.Click += new System.EventHandler(this.btneliminarservicio_Click);
             // 
-            // button1
+            // btnagregarservicio
             // 
-            this.button1.Location = new System.Drawing.Point(12, 102);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(244, 31);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Agregar Servicio";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnagregarservicio.Location = new System.Drawing.Point(12, 102);
+            this.btnagregarservicio.Name = "btnagregarservicio";
+            this.btnagregarservicio.Size = new System.Drawing.Size(244, 31);
+            this.btnagregarservicio.TabIndex = 20;
+            this.btnagregarservicio.Text = "Agregar Servicio";
+            this.btnagregarservicio.UseVisualStyleBackColor = true;
+            this.btnagregarservicio.Click += new System.EventHandler(this.btnagregarservicio_Click);
             // 
             // Form2
             // 
@@ -235,12 +254,12 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.nombre);
+            this.Controls.Add(this.idusuario);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnmoficarservicio);
+            this.Controls.Add(this.btneliminarservicio);
+            this.Controls.Add(this.btnagregarservicio);
             this.Name = "Form2";
             this.Text = "Form2";
             this.ResumeLayout(false);
@@ -264,11 +283,11 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label nombre;
+        private System.Windows.Forms.Label idusuario;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnmoficarservicio;
+        private System.Windows.Forms.Button btneliminarservicio;
+        private System.Windows.Forms.Button btnagregarservicio;
     }
 }

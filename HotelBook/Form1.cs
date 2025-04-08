@@ -47,7 +47,7 @@ namespace HotelBook
             {
                 MessageBox.Show($"Error al registrar el usuario: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
+        } 
 
         private void button2_Click(object sender, EventArgs e) 
         {
